@@ -1,0 +1,28 @@
+body {
+    background-color: #eee6ff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    /* background-image: url('noise.png'); */
+    /* background-repeat: repeat; */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #d2c2fd;
+}
+
+ul li {
+    list-style-type: none;
+    height: 48px;
+    width: 100%;
+    border-bottom: 1px solid #d2c2fd;
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
