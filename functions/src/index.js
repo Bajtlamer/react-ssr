@@ -16,6 +16,6 @@ var _frameworks2 = _interopRequireDefault(_frameworks);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _frameworks2.default)().then(function (frameworks) {
-    (0, _reactDom.render)(_react2.default.createElement(_App2.default, { frameworks: frameworks }), document.querySelector('#root'));
-});
+// getFrameworks().then(frameworks => {
+(0, _reactDom.render)(_react2.default.createElement(_App2.default, { frameworks: (0, _frameworks2.default)() }), document.querySelector('#root'));
+// })

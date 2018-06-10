@@ -4,6 +4,6 @@ import App from './App';
 
 import getFrameworks from "./frameworks";
 
-getFrameworks().then(frameworks => {
-    render(<App frameworks={frameworks} />, document.querySelector('#root'));
-})
+// getFrameworks().then(frameworks => {
+    render(<App frameworks={getFrameworks()} />, document.querySelector('#root'));
+// })
